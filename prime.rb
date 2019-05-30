@@ -4,7 +4,7 @@ def prime?(num)
  for divisor in -100000..(num)
  return false 
   if num <= 2
- else 
+ elsif num 
   return true
 
  # elsif (num % divisor) == 0 
