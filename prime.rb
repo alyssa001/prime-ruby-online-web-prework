@@ -1,11 +1,9 @@
 def prime?(num)
-		for divisor in 2..(num-1)
-			if (num % divisor) == 0
-				return true
-			elsif num <= 0 
-				return false
-			#else
-			#	return false
-			end
+  	return false if num < 2
+  	(2…num-1).each do |x|
+	  	if num%x == 0
+	  	return false
 	  end
+  end
+	true
 end
