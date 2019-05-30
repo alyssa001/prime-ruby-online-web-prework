@@ -1,7 +1,7 @@
 #Alyssa Yesilyurt
 
 def prime?(num)
- for divisor in -100000..(num-1)
+ for divisor in -100000..(num)
  return false if num <= 2
 
   elsif (num % divisor) == 0 
