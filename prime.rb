@@ -1,11 +1,11 @@
 #Alyssa Yesilyurt
 
 def prime?(num)
-  (2..integer - 1).each do |x| 
-    if (integer % x) == 0 
-      return false 
-    else 
-      return true
-    end
+ for divisor in -100000..(num-1)
+   if num <= 0
+    return false
+  elsif (num % divisor) == 0 
+    return false
   end
-end
+  end
+end   
