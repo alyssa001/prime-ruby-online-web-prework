@@ -1,1 +1,5 @@
-# Add  code here!
+#Alyssa Yesilyurt
+
+def prime(num)
+  
+end   
