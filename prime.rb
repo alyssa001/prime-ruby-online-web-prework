@@ -6,6 +6,8 @@ def prime?(num)
     return false
   elsif (num % divisor) == 0 
     return false
+  else
+    return true 
   end
   end
 end   
