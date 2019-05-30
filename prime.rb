@@ -5,7 +5,7 @@ def prime?(num)
    if num <= 0
     return false
   elsif (num % divisor) == 0 
-    return false
+    return true
   end
   end
 end   
